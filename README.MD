@@ -99,8 +99,9 @@ The core banking web application will have the following modules:
 
 ## 8. References
 
-- [Insert any relevant references or documentation here]
+https://docs.spring.io/spring-boot/docs/current/reference/htmlsingle/
 
+https://react.dev/
 
 This Software Requirements  outlines the key functionalities, design considerations, and constraints for developing the Online Banking Customer Portal. It serves as a reference for the development team to ensure alignment with project goals and stakeholder expectations.
 
@@ -224,8 +225,7 @@ For a detailed list of endpoints and their functionalities, please refer to the 
 Logging is implemented using Logback, with log files stored in the ./log directory.
 
 ## ERD
-
-![ERD](ERD-1.png)
+![alt text](ERD-1-1.png)
 
 ## Getting Started
 
@@ -237,14 +237,7 @@ To run the application locally, follow these steps:
 4. Start the frontend development server.
 5. Access the application in your web browser.
 
-## Contributors
 
-- [Your Name](https://github.com/yourusername)
-
-## License
-
-This project is licensed under the [MIT License](LICENSE).
 
 ---
 
-Feel free to contribute to Bank Duit by submitting bug reports, feature requests, or pull requests. Happy banking! 🏦💳
