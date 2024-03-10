@@ -1,0 +1,52 @@
+<mxfile host="Electron" modified="2024-03-06T23:56:31.849Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/23.1.5 Chrome/120.0.6099.109 Electron/28.1.0 Safari/537.36" etag="Es36Bn_Zvsia13301TK_" version="23.1.5" type="device">
+  <diagram name="Page-1" id="C3TLkpgQDt_cvj1Uh1yw">
+    <mxGraphModel dx="780" dy="496" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="1PiVlOlkZKZtryU81xbf-18" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e3c800;fontColor=#000000;strokeColor=#B09500;" vertex="1" parent="1">
+          <mxGeometry x="185" y="60" width="405" height="340" as="geometry" />
+        </mxCell>
+        <mxCell id="1PiVlOlkZKZtryU81xbf-14" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#60a917;fontColor=#ffffff;strokeColor=#2D7600;" vertex="1" parent="1">
+          <mxGeometry x="224" y="295" width="330" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="1PiVlOlkZKZtryU81xbf-8" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#1ba1e2;fontColor=#ffffff;strokeColor=#006EAF;" vertex="1" parent="1">
+          <mxGeometry x="230" y="100" width="320" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="1PiVlOlkZKZtryU81xbf-1" value="Router" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="250" y="140" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="1PiVlOlkZKZtryU81xbf-2" value="Components" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="350" y="140" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="1PiVlOlkZKZtryU81xbf-3" value="Services" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="450" y="140" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="1PiVlOlkZKZtryU81xbf-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;startArrow=classic;startFill=1;" edge="1" parent="1" source="1PiVlOlkZKZtryU81xbf-5" target="1PiVlOlkZKZtryU81xbf-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="1PiVlOlkZKZtryU81xbf-5" value="axios http library" style="rhombus;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
+          <mxGeometry x="354" y="173" width="70" height="56" as="geometry" />
+        </mxCell>
+        <mxCell id="1PiVlOlkZKZtryU81xbf-10" value="&lt;b&gt;REACT FrontEnd App&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="305" y="110" width="170" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="1PiVlOlkZKZtryU81xbf-11" value="Model" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="254" y="320" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="1PiVlOlkZKZtryU81xbf-12" value="Service" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="354" y="320" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="1PiVlOlkZKZtryU81xbf-13" value="Repository" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="454" y="320" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="1PiVlOlkZKZtryU81xbf-15" value="Spring Rest Controller" style="rhombus;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
+          <mxGeometry x="354" y="264" width="70" height="56" as="geometry" />
+        </mxCell>
+        <mxCell id="1PiVlOlkZKZtryU81xbf-17" value="REST API" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="424" y="234" width="60" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

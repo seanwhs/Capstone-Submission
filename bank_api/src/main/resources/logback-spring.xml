@@ -1,0 +1,39 @@
+<configuration>
+    <springProperty scope="context" name="logPath" source="logging.file.path"/>
+
+    <!-- System Logs File Appender -->
+    <appender name="SYSTEM_FILE" class="ch.qos.logback.core.FileAppender">
+        <file>${logPath}/system.log</file>
+        <encoder>
+            <pattern>%d{yyyy-MM-dd HH:mm:ss} [%thread] %-5level %logger{36} - %msg%n</pattern>
+        </encoder>
+        <filter class="ch.qos.logback.classic.filter.LevelFilter">
+            <level>INFO</level>
+            <onMatch>ACCEPT</onMatch>
+            <onMismatch>DENY</onMismatch>
+        </filter>
+    </appender>
+
+    <!-- AOP Logs File Appender -->
+    <appender name="AOP_FILE" class="ch.qos.logback.core.FileAppender">
+        <file>${logPath}/AOP_DEMO.log</file>
+        <encoder>
+            <pattern>%d{yyyy-MM-dd HH:mm:ss} [%thread] %-5level %logger{36} - %msg%n</pattern>
+        </encoder>
+        <filter class="ch.qos.logback.classic.filter.LevelFilter">
+            <level>INFO</level>
+            <onMatch>ACCEPT</onMatch>
+            <onMismatch>DENY</onMismatch>
+        </filter>
+    </appender>
+
+    <!-- Define loggers -->
+    <logger name="capstone.bank_api.aspect.LoggingAspect" level="info" additivity="false">
+        <appender-ref ref="AOP_FILE"/>
+    </logger>
+
+    <!-- Root logger to capture all other logs -->
+    <root level="info">
+        <appender-ref ref="SYSTEM_FILE"/>
+    </root>
+</configuration>
